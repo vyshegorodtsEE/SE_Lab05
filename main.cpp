@@ -1,4 +1,3 @@
-/* Программа является учебной*/
 #include <iostream>
 
 using namespace std;
@@ -10,7 +9,7 @@ int main()
     cin >> a >> b;
     int c;
     c = a + b;
-    cout  << " a + b = " << c << endl;
-    c = a - b;
-    cout  << " a - b = " << c << endl;
+    cout  << " a + b = " << a + b  << '\n';
+    cout  << " a - b = " << a - b << '\n';
+    cout  << " a / b = " << a / b << '\n';
 }
